@@ -1,6 +1,6 @@
 # goim-docker
 
-
+A [goim v2](https://github.com/Terry-mao/goim) image on docker.Using CentOS as the base image.
 
 ## Getting started
 
