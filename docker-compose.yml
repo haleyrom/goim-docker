@@ -1,0 +1,15 @@
+goim:
+  image: "haleyrom/goim-docker:laster"
+  ports:
+    - "3101:3101"
+    - "3102:3102"
+    - "3103:3103"
+    - "3111:3111"
+    - "3119:3119"
+    - "6379:6379"
+    - "7172:7172"
+    - "9092:9092"
+  volumes:
+    - goim_config:/root/config
+    - goim_logs:/root/logs
+    - goim_example:/root/soft/example
